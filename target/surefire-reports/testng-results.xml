@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="56315" started-at="2021-12-28T07:01:25Z" finished-at="2021-12-28T07:02:21Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="56315" started-at="2021-12-28T07:01:25Z" finished-at="2021-12-28T07:02:21Z">
+      <class name="qaclickacademymaven.MavenJava.SeleniumTest">
+        <test-method status="PASS" signature="loginwithvalidDetails()[pri:0, instance:qaclickacademymaven.MavenJava.SeleniumTest@9f70c54]" name="loginwithvalidDetails" duration-ms="2833" started-at="2021-12-28T07:02:18Z" finished-at="2021-12-28T07:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidDetails -->
+      </class> <!-- qaclickacademymaven.MavenJava.SeleniumTest -->
+      <class name="qaclickacademymaven.MavenJava.Selenium2Test">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium2Test@2c9f9fb0]" name="openBrowser" is-config="true" duration-ms="5202" started-at="2021-12-28T07:01:10Z" finished-at="2021-12-28T07:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium3Test@2096442d]" name="openBrowser" is-config="true" duration-ms="4946" started-at="2021-12-28T07:01:15Z" finished-at="2021-12-28T07:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:qaclickacademymaven.MavenJava.SeleniumTest@9f70c54]" name="openBrowser" is-config="true" duration-ms="4773" started-at="2021-12-28T07:01:20Z" finished-at="2021-12-28T07:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationUrl()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium2Test@2c9f9fb0]" name="enterApplicationUrl" is-config="true" duration-ms="13559" started-at="2021-12-28T07:01:25Z" finished-at="2021-12-28T07:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationUrl -->
+        <test-method status="PASS" signature="enterApplicationUrl()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium3Test@2096442d]" name="enterApplicationUrl" is-config="true" duration-ms="18192" started-at="2021-12-28T07:01:38Z" finished-at="2021-12-28T07:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationUrl -->
+        <test-method status="PASS" signature="enterApplicationUrl()[pri:0, instance:qaclickacademymaven.MavenJava.SeleniumTest@9f70c54]" name="enterApplicationUrl" is-config="true" duration-ms="12424" started-at="2021-12-28T07:01:56Z" finished-at="2021-12-28T07:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationUrl -->
+        <test-method status="PASS" signature="loginwithvalidDetails()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium2Test@2c9f9fb0]" name="loginwithvalidDetails" duration-ms="5210" started-at="2021-12-28T07:02:09Z" finished-at="2021-12-28T07:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidDetails -->
+      </class> <!-- qaclickacademymaven.MavenJava.Selenium2Test -->
+      <class name="qaclickacademymaven.MavenJava.Selenium3Test">
+        <test-method status="PASS" signature="loginwithvalidDetails()[pri:0, instance:qaclickacademymaven.MavenJava.Selenium3Test@2096442d]" name="loginwithvalidDetails" duration-ms="4041" started-at="2021-12-28T07:02:14Z" finished-at="2021-12-28T07:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidDetails -->
+      </class> <!-- qaclickacademymaven.MavenJava.Selenium3Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
