@@ -41,6 +41,12 @@ public class SeleniumTest {
 		driver.findElement(By.name("password")).sendKeys("qqqqq");
 		driver.findElement(By.name("submit")).click();
 	}
+	@Test
+	public void m1()
+	{
+		System.out.println("Login test sucess");
+
+	}
 	@AfterTest
 	public void  dbConnectionClose()
 	{
