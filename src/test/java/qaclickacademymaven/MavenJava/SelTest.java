@@ -3,7 +3,7 @@ package qaclickacademymaven.MavenJava;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-public class DemoTest {
+public class SelTest {
 
 	@Test
 	public void m1()
@@ -15,5 +15,11 @@ public class DemoTest {
 	public void  dbConnectionClose()
 	{
 		System.out.println("DB Connection Close");
+	}
+	@Test
+	public void m2()
+	{
+		System.out.println("Login test sucess");
+
 	}
 }
