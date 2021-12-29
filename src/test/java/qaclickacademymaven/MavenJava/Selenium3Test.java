@@ -3,6 +3,7 @@ package qaclickacademymaven.MavenJava;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -33,5 +34,17 @@ public class Selenium3Test {
 		driver.findElement(By.name("password")).sendKeys("qqqqq");
 		driver.findElement(By.name("submit")).click();
 
+	}
+	
+	@Test
+	public void m1()
+	{
+		System.out.println("Login test sucess");
+
+	}
+	@AfterTest
+	public void  dbConnectionClose()
+	{
+		System.out.println("DB Connection Close");
 	}
 }
